@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6312" started-at="2017-02-01T02:11:07Z" finished-at="2017-02-01T02:11:13Z">
+    <groups>
+      <group name="critical">
+        <method signature="LandLordTest.postLanlord01(restAutomation.Rest.main.Landlord)[pri:1, instance:restAutomation.Rest.test.LandLordTest@357246de]" name="postLanlord01" class="restAutomation.Rest.test.LandLordTest"/>
+      </group> <!-- critical -->
+    </groups>
+    <test name="Default test" duration-ms="6312" started-at="2017-02-01T02:11:07Z" finished-at="2017-02-01T02:11:13Z">
+      <class name="restAutomation.Rest.test.LandLordTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:restAutomation.Rest.test.LandLordTest@357246de]" name="init" is-config="true" duration-ms="740" started-at="2017-01-31T18:11:07Z" finished-at="2017-01-31T18:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="postLanlord01(restAutomation.Rest.main.Landlord)[pri:1, instance:restAutomation.Rest.test.LandLordTest@357246de]" name="postLanlord01" duration-ms="5035" started-at="2017-01-31T18:11:07Z" data-provider="validLandlords" finished-at="2017-01-31T18:11:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restAutomation.Rest.main.Landlord@49b0b76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLanlord01 -->
+        <test-method status="PASS" signature="postLanlord01(restAutomation.Rest.main.Landlord)[pri:1, instance:restAutomation.Rest.test.LandLordTest@357246de]" name="postLanlord01" duration-ms="493" started-at="2017-01-31T18:11:12Z" data-provider="validLandlords" finished-at="2017-01-31T18:11:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restAutomation.Rest.main.Landlord@5d8445d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLanlord01 -->
+      </class> <!-- restAutomation.Rest.test.LandLordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
